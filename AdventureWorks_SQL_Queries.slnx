@@ -3,4 +3,8 @@
     <BuildType Name="Default" />
     <Platform Name="Default" />
   </Configurations>
+  <Folder Name="/Solution Items/">
+    <File Path="01_Basis_sql_queries.sql.sql" />
+    <File Path="joins.sql" />
+  </Folder>
 </Solution>

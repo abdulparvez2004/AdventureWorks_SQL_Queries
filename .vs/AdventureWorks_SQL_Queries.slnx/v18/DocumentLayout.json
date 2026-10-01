@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\mohda\\source\\repos\\AdventureWorks_SQL_Queries\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mohda\\source\\repos\\AdventureWorks_SQL_Queries\\01_Basis_sql_queries.sql.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:01_Basis_sql_queries.sql.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}"
+      "AbsoluteMoniker": "D:0:0:{A91EA88A-F028-4FF0-941E-162E37059BF5}|Solution Items{A91EA88A-F028-4FF0-941E-162E37059BF5}|C:\\Users\\mohda\\source\\repos\\AdventureWorks_SQL_Queries\\joins.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}",
+      "RelativeMoniker": "D:0:0:{A91EA88A-F028-4FF0-941E-162E37059BF5}|Solution Items{A91EA88A-F028-4FF0-941E-162E37059BF5}|solutionrelative:joins.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A91EA88A-F028-4FF0-941E-162E37059BF5}|Solution Items{A91EA88A-F028-4FF0-941E-162E37059BF5}|C:\\Users\\mohda\\source\\repos\\AdventureWorks_SQL_Queries\\01_Basis_sql_queries.sql.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}",
+      "RelativeMoniker": "D:0:0:{A91EA88A-F028-4FF0-941E-162E37059BF5}|Solution Items{A91EA88A-F028-4FF0-941E-162E37059BF5}|solutionrelative:01_Basis_sql_queries.sql.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,14 +27,26 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "01_Basis_sql_queries.sql.sql - DESKTOP-70KELC6.AdventureWorks2022 (DESKTOP-70KELC6\\mohda (52))",
+              "Title": "joins.sql - DESKTOP-70KELC6.AdventureWorks2022 (DESKTOP-70KELC6\\mohda (75))",
+              "DocumentMoniker": "C:\\Users\\mohda\\source\\repos\\AdventureWorks_SQL_Queries\\joins.sql",
+              "RelativeDocumentMoniker": "joins.sql",
+              "ToolTip": "C:\\Users\\mohda\\source\\repos\\AdventureWorks_SQL_Queries\\joins.sql - DESKTOP-70KELC6.AdventureWorks2022 (DESKTOP-70KELC6\\mohda (75))",
+              "RelativeToolTip": "joins.sql - DESKTOP-70KELC6.AdventureWorks2022 (DESKTOP-70KELC6\\mohda (75))",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-10-01T12:24:11.056Z",
+              "EditorCaption": " - DESKTOP-70KELC6.AdventureWorks2022 (DESKTOP-70KELC6\\mohda (75))"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "01_Basis_sql_queries.sql.sql - DESKTOP-70KELC6.master (DESKTOP-70KELC6\\mohda (73))",
               "DocumentMoniker": "C:\\Users\\mohda\\source\\repos\\AdventureWorks_SQL_Queries\\01_Basis_sql_queries.sql.sql",
               "RelativeDocumentMoniker": "01_Basis_sql_queries.sql.sql",
-              "ToolTip": "C:\\Users\\mohda\\source\\repos\\AdventureWorks_SQL_Queries\\01_Basis_sql_queries.sql.sql - DESKTOP-70KELC6.AdventureWorks2022 (DESKTOP-70KELC6\\mohda (52))",
-              "RelativeToolTip": "01_Basis_sql_queries.sql.sql - DESKTOP-70KELC6.AdventureWorks2022 (DESKTOP-70KELC6\\mohda (52))",
+              "ToolTip": "C:\\Users\\mohda\\source\\repos\\AdventureWorks_SQL_Queries\\01_Basis_sql_queries.sql.sql - DESKTOP-70KELC6.master (DESKTOP-70KELC6\\mohda (73))",
+              "RelativeToolTip": "01_Basis_sql_queries.sql.sql - DESKTOP-70KELC6.master (DESKTOP-70KELC6\\mohda (73))",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2026-09-30T17:19:56.987Z",
-              "EditorCaption": " - DESKTOP-70KELC6.AdventureWorks2022 (DESKTOP-70KELC6\\mohda (52))"
+              "WhenOpened": "2026-10-01T12:23:25.051Z",
+              "EditorCaption": " - DESKTOP-70KELC6.master (DESKTOP-70KELC6\\mohda (73))"
             }
           ]
         }
