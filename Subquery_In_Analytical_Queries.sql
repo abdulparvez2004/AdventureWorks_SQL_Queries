@@ -108,3 +108,83 @@ FROM (
 ) AS ProductSummary 
 WHERE TotalUnits > 500 
 ORDER BY TotalUnits DESC; 
+
+--Business Scenerios:
+--Business scenario: A retail manager wants to identify products priced higher than the average positive product price.
+select
+ProductID,
+Name as ProductName,
+ListPrice
+from Production.Product
+where ListPrice > (
+select
+AVG(ListPrice)
+from Production.Product
+where ListPrice > 0
+)
+order by ListPrice desc;
+
+--2.Business scenario: A product manager wants to find which product or products have the highest list price.
+select
+ProductID,
+Name as ProductName,
+ListPrice
+from Production.Product
+where ListPrice = (
+select
+MAX(listprice)
+from Production.Product
+where ListPrice > 0
+)
+order by ListPrice desc;
+--3.The sales team wants to find orders whose total due is above the average order total.
+select
+SalesOrderID,
+OrderDate,
+TotalDue
+from Sales.SalesOrderHeader
+where TotalDue > (
+select
+AVG(TotalDue) as Totaldue
+from Sales.SalesOrderHeader
+)
+order by TotalDue desc;
+
+--4.Business scenario: The inventory team wants to distinguish products that have actually appeared in sales order details.
+select
+ProductID,
+Name as ProductName,
+ListPrice
+from Production.Product
+where ProductID in (
+select
+ProductID
+from Sales.SalesOrderDetail
+)
+order by Name asc;
+
+--5.Business scenario: The product team wants to identify products that have no matching sales-detail record.
+select
+ProductID,
+Name as ProductName,
+ListPrice
+from Production.Product
+where ProductID not in (
+select
+ProductID
+from Sales.SalesOrderDetail
+)
+order by Name asc;
+
+--6.Business scenario: Marketing wants a list of customers who have made at least one sales order.
+select
+CustomerID
+from Sales.Customer
+where CustomerID in (
+select
+CustomerID
+from Sales.SalesOrderHeader
+)
+order by CustomerID
+
+--7.
