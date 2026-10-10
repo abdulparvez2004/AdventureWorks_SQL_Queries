@@ -187,4 +187,21 @@ from Sales.SalesOrderHeader
 )
 order by CustomerID
 
---7.
+--7.Business scenario: Comparing all products against one overall average may be misleading.
+--A manager wants to compare each product with other products in its own category
+select
+p1.ProductID,
+p1.Name as ProductName,
+p1.ProductSubcategoryID,
+p1.ListPrice
+from Production.Product as p1
+where p1.ProductSubcategoryID is not null
+and p1.ListPrice > (
+select
+AVG(p2.ListPrice)
+from Production.Product as p2
+where p2.ProductSubcategoryID = p1.ProductSubcategoryID
+and p2.ListPrice > 0
+)
+order by p1.ProductSubcategoryID,
+p1.ListPrice
